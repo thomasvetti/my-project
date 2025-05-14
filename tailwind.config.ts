@@ -3,8 +3,9 @@ import type { Config } from "tailwindcss";
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  "./components/**/*.{js,ts,jsx,tsx,mdx}",
+  "./app/**/*.{js,ts,jsx,tsx,mdx}",
+  "./app/components/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -13,8 +14,9 @@ const config: Config = {
         darkBg: "#131424",
       },
       backgroundImage: {
-        "gradient-cover":
-          "linear-gradient(90.21deg, rgba(1170, 542, 2124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
+  "gradient-cover":
+    "linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%)",
+
       },
     },
   },

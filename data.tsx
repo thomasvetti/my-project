@@ -1,31 +1,29 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Mail, Github } from "lucide-react";
 
 export const socialNetworks = [
     {
         id: 1,
-        logo: <Youtube size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Instagram size={30} strokeWidth={1} />,
+        src: "https://www.instagram.com/thomasvetti/",
     },
     {
         id: 2,
         logo: <Linkedin size={30} strokeWidth={1} />,
-        src: "#!",
+        src: "https://www.linkedin.com/in/thomas-vetti-usuga-301934364/",
     },
-    {
-        id: 3,
-        logo: <Twitter size={30} strokeWidth={1} />,
-        src: "#!",
-    },
+  
     {
         id: 4,
-        logo: <Rss size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Mail size={30} strokeWidth={1} />,
+        src: "https://mail.google.com/mail/?view=cm&fs=1&to=thomas.vetti@utp.edu.co"
     },
-    {
+      {
         id: 5,
-        logo: <Twitch size={30} strokeWidth={1} />,
-        src: "#!",
+        logo: <Github size={30} strokeWidth={1} />,
+        src: "https://github.com/thomasvetti"
     },
+    
+    
 ];
 
 
