@@ -17,4 +17,12 @@ html,
   .text-balance {
     text-wrap: balance;
   }
+  .swiper-pagination-bullet {
+  background: #fff !important;
+  opacity: 0.5;
+}
+.swiper-pagination-bullet-active {
+  background: #fff !important;
+  opacity: 1;
+}
 }

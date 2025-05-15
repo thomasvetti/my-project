@@ -1,4 +1,4 @@
-import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Mail, Github } from "lucide-react";
+import { BookText, CodeSquare, HomeIcon, UserRound, Linkedin, Twitter, Rss, Twitch, Youtube, Crop, Pencil, Computer, Book, Rocket, Speech, Instagram, Mail, Github, Phone, Banknote } from "lucide-react";
 
 export const socialNetworks = [
     {
@@ -61,40 +61,56 @@ export const itemsNavbar = [
 ];
 
 export const dataAboutPage = [
+    
+    {
+        id: 0,
+        title: "Cursando  el programa de Tecnología en Desarrollo de Software. ",
+        subtitle: "UTP.",
+        description: "Formación en fundamentos técnicos como programación (Java/Python), estructuras de datos, algoritmos y bases de datos (SQL/NoSQL); desarrollo web/móvil con frontend (HTML/CSS/JS), backend (Node.js, frameworks) y apps híbridas; ingeniería de software (UML, metodologías ágiles, testing); e introducción a sistemas inteligentes (IA, machine learning y análisis de datos).",
+        date: "+ 500 horas",
+    },
     {
         id: 1,
-        title: "Frontend Developer",
-        subtitle: "TechSolutions",
-        description: "Colabora con un equipo dinámico para desarrollar interfaces de usuario atractivas y funcionales que impulsen el éxito de nuestros clientes en el mundo digital.",
-        date: "Nov 2023 ",
+        title: "Máster Completo en Java de cero a experto 2025",
+        subtitle: "Udemy.",
+        description: "Dominio de Java (POO, Spring Boot, JavaFX, JDBC) , con proyectos prácticos full-stack",
+        date: "180 horas",
     },
     {
         id: 2,
-        title: "Creador de Experiencias Digitales",
-        subtitle: "PixelCrafters",
-        description: "Trabaja en proyectos emocionantes que desafían los límites de la creatividad y la tecnología. Únete a nosotros mientras creamos experiencias digitales cautivadoras que inspiran y cautivan a nuestros usuarios.",
-        date: "May 2021",
+        title: "Three.js, React Three Fiber, Drei, React Spring & More",
+        subtitle: "Udemy.",
+        description: "Desarrollo frontend con React, React Three Fiber (3D) y react-spring (animaciones), con proyectos prácticos.",
+        date: "12.5 horas",
     },
     {
         id: 3,
-        title: "Especialista en Desarrollo Frontend",
-        subtitle: "CodeForge Solutions",
-        description: "Como desarrollador frontend, tendrás la oportunidad de colaborar en proyectos diversos y desafiantes que te permitirán expandir tus habilidades y dejar tu huella en el mundo digital.",
-        date: "Ago 2019",
+        title: "The Complete Prompt Engineering for AI Bootcamp (2025)",
+        subtitle: "Udemy.",
+        description: "Dominio de Prompt Engineering para LLMs (ChatGPT, GPT-4), con técnicas aplicables a negocios y automatización.",
+        date: "22.5 horas",
     },
     {
         id: 4,
-        title: "Prácticas Grado",
-        subtitle: "WebWizards Inc.",
-        description: "Únete a nosotros mientras creamos sitios web y aplicaciones interactivas que sorprenden y deleitan a nuestros clientes. Si tienes pasión por el diseño y la programación, y disfrutas colaborar en un entorno creativo, ¡queremos conocerte!        ",
-        date: "Mar 2018",
+        title: "The Complete PHP Full Stack Web Developer Bootcamp",
+        subtitle: "Udemy.",
+        description: "Desarrollo full-stack con PHP, Laravel y MySQL, incluyendo construcción de aplicaciones web completas. ",
+        date: "61.5 horas",
     },
+    {
+       id: 5,
+        title: "Máster en SQL Server: Desde Cero a Nivel Profesional (2025)",
+        subtitle: "Udemy.",
+        description: "Dominio en SQL Server (T-SQL, ETL, optimización)  con habilidades en diseño y administración de bases de datos empresariales. ",
+        date: "16 horas",
+    },
+  
 ]
 
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 500,
+        endCounter: + 700,
         text: "Horas de práctica",
         lineRight: true,
         lineRightMobile: true,
@@ -126,29 +142,28 @@ export const dataCounter = [
 
 export const serviceData = [
     {
-        icon: <Crop />,
-        title: "Branding",
-        description: "Desarrollo de una identidad de marca sólida y coherente, incluyendo diseño de logotipo, colores y elementos visuales",
-    },
-    {
-        icon: <Pencil />,
-        title: "Diseño web",
-        description: "Diseño creativo y profesional de interfaces web intuitivas y atractivas, centradas en la experiencia del usuario",
-    },
-    {
         icon: <Computer />,
-        title: "Desarrollo web",
+        title: "Aplicaciones web full-stack",
         description: "Diseño y desarrollo de sitios web a medida, adaptados a tus necesidades",
     },
     {
+        icon: <Phone />,
+        title: "Desarrollo multiplataforma con React Native (iOS/Android",
+    },
+    {
+        icon: <Banknote />,
+        title: "Sistemas empresariales",
+        description: "Software a medida para gestión de procesos (inventario, CRM) con Java o PHP",
+    },
+    {
         icon: <Book />,
-        title: "Copywriting",
-        description: "Creación de contenido persuasivo y atractivo que capta la atención de tu audiencia",
+        title: "Inteligencia Artificial aplicada",
+        description: "Prompt engineering para negocios (mejora de interacciones con IA)",
     },
     {
         icon: <Rocket />,
-        title: "SEO",
-        description: "Optimización de tu presencia en línea mediante estrategias de SEO avanzadas, ",
+        title: "Ciberseguridad básica",
+        description: "Auditorías de código (vulnerabilidades comunes). ",
     },
 ];
 
