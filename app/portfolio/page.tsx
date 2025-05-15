@@ -1,10 +1,8 @@
-import Image from "next/image";
-import Link from "next/link";
 
 import { dataPortfolio } from "@/data";
 
 import { Coverparticles } from "../components/cover-particles";
-import AvatarPortfolio from "../components/avatar-portfolio";
+
 
 import CircleImage from "../components/circle-image";
 
