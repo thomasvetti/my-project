@@ -31,7 +31,7 @@ const Introduction = () => {
                         He trabajado en proyectos tanto de frontend como de backend. Me apasiona la tecnología y busco seguir creciendo como desarrollador. <br />
                     </p>
                     <div className="flex items-center justify-center gap-3 md:justify-start md:gap-10 mt-4">
-                        <a href="/projects" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
+                        <a href="/portfolio" className="px-3 py-2 my-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Ver proyectos
                         </a>
                         <a href="/contact"
