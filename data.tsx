@@ -52,12 +52,12 @@ export const itemsNavbar = [
         icon: <CodeSquare size={25} color="#fff" strokeWidth={1} />,
         link: "/portfolio",
     },
-    {
-        id: 5,
-        title: "Home",
-        icon: <Speech size={25} color="#fff" strokeWidth={1} />,
-        link: "/testimonials",
-    },
+    // {
+    //     id: 5,
+    //     title: "Home",
+    //     icon: <Speech size={25} color="#fff" strokeWidth={1} />,
+    //     link: "/testimonials",
+    // },
 ];
 
 export const dataAboutPage = [
@@ -94,32 +94,34 @@ export const dataAboutPage = [
 export const dataCounter = [
     {
         id: 0,
-        endCounter: 10,
-        text: "Años de experiencia",
+        endCounter: 500,
+        text: "Horas de práctica",
         lineRight: true,
         lineRightMobile: true,
     },
     {
         id: 1,
-        endCounter: 80,
-        text: "Clientes satisfechos",
+        endCounter: 4.5,
+        text: "Promedio Estudiantil",
         lineRight: true,
         lineRightMobile: false,
     },
+    
     {
         id: 2,
-        endCounter: 220,
+        endCounter: 25,
         text: "Proyectos finalizados",
         lineRight: true,
         lineRightMobile: true,
     },
+
     {
         id: 3,
-        endCounter: 30,
-        text: "Premios ganadores",
+        endCounter: 12,
+        text: "Tecnologías aprendidas",
         lineRight: false,
         lineRightMobile: false,
-    },
+    }
 ];
 
 export const serviceData = [
