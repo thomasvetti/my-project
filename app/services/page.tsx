@@ -1,5 +1,4 @@
 
-import AvatarServices from "../components/avatar-services";
 
 import CircleImage from "../components/circle-image";
 import ContainerPage from "../components/container-page";
