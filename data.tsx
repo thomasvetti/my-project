@@ -148,7 +148,8 @@ export const serviceData = [
     },
     {
         icon: <Phone />,
-        title: "Desarrollo multiplataforma con React Native (iOS/Android",
+        title: "Desarrollo Movil",
+        description: "Desarrollo multiplataforma con React Native (iOS/Android)",
     },
     {
         icon: <Banknote />,
