@@ -1,11 +1,12 @@
 "use client";
 import Image from 'next/image';
 import { TypeAnimation } from 'react-type-animation';
-
+import ContainerPage from './container-page';
 const Introduction = () => {
     return (
+        <ContainerPage>
         <div className="z-20 w-full bg-darkBg/60">
-            <div className="z-20 grid items-center h-full p-6 py-20 md:py-0 md:grid-cols-2">
+            <div className="z-20 grid gap-2 md:gap-69 items-center h-full p-20 py-25 md:py-0 md:grid-cols-2">
                 <Image   src="/laptop2.png"    alt="Avatar"    width={600}   height={800}   priority className="w-55 md:w-[600px] h-auto mx-auto"
 />
                 <div className="flex flex-col justify-center max-w-md">
@@ -45,6 +46,7 @@ const Introduction = () => {
                 </div>
             </div>
         </div>
+        </ContainerPage>
     );
 }
 export default Introduction;

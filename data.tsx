@@ -126,7 +126,7 @@ export const dataCounter = [
     {
         id: 2,
         endCounter: 25,
-        text: "Proyectos finalizados",
+        text: "Proyectos Academicos",
         lineRight: true,
         lineRightMobile: true,
     },
